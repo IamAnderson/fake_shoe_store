@@ -6,8 +6,8 @@ import { MdInfoOutline } from "react-icons/md";
 
 export default function Home() {
   return (
-    <div className="bg-[url('/img3.jpg')] bg-cover bg-no-repeat h-full lg:h-screen w-full">
-      <div className="bg-[#000] text-white bg-opacity-80 h-full w-full pb-20">
+    <div className="bg-[url('/img3.jpg')] bg-cover bg-no-repeat h-full w-full">
+      <div className="bg-[#000] text-white bg-opacity-80 h-full w-full pb-20 lg:pb-48 2xl:pb-72">
         <Navbar />
 
         <div className="flex flex-col-reverse lg:flex-row gap-8 w-full px-4 lg:px-28 mt-8 lg:mt-20">
@@ -21,7 +21,7 @@ export default function Home() {
             >
               <span className="text-[30px] lg:text-[50px] font-[monospace] lowercase text-justify">
                 {" "}
-                Lorem ipsum dolor amet
+                Lorem ipsum amet
               </span>
               <span className="text-[24px] flex items-center gap-2 leading-tight text-[#a5a5a5] lowercase mb-8 text-justify">
                 <MdInfoOutline />
